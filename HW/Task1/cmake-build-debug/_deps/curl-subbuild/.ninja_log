@@ -1,0 +1,21 @@
+# ninja log v5
+1	90	7600415470302016	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	9ef5d99c3ed6b869
+1	90	7600415470302016	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	9ef5d99c3ed6b869
+91	7865	7600415548063673	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	96cc94c7b8794a7d
+91	7865	7600415548063673	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	96cc94c7b8794a7d
+7865	7948	7600415548893594	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	5a3e84046a0d2374
+7865	7948	7600415548893594	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	5a3e84046a0d2374
+7949	8034	7600415549748642	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	23a5ee50530b6d9e
+7949	8034	7600415549748642	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	23a5ee50530b6d9e
+8035	8290	7600415552290406	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	a8e50f379a95e0f9
+8035	8290	7600415552290406	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	a8e50f379a95e0f9
+8290	8377	7600415553174171	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	b16a1a27a9f50c2c
+8290	8377	7600415553174171	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	b16a1a27a9f50c2c
+8377	8459	7600415553993824	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	5a7700c3b7d46092
+8377	8459	7600415553993824	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	5a7700c3b7d46092
+8459	8629	7600415555688556	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	365228fe660bc37a
+8459	8629	7600415555688556	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	365228fe660bc37a
+8629	8748	7600415556868527	CMakeFiles/curl-populate-complete	a4d2c038db016768
+8629	8748	7600415556868527	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	a4d2c038db016768
+8629	8748	7600415556868527	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	a4d2c038db016768
+8629	8748	7600415556868527	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	a4d2c038db016768

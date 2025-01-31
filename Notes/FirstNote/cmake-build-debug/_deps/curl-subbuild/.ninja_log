@@ -1,0 +1,21 @@
+# ninja log v5
+1	77	7600218150035671	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	e7de603e24bd1133
+6141	6217	7600218211428695	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	c1aef1202f1d99b6
+1	77	7600218150035671	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	e7de603e24bd1133
+78	6141	7600218210673715	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	600215845d5022e5
+78	6141	7600218210673715	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	600215845d5022e5
+6522	6604	7600218215293447	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	a5b4c06bae8a531a
+6217	6295	7600218212208415	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	f160b8308e8f1908
+6217	6295	7600218212208415	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	f160b8308e8f1908
+6141	6217	7600218211428695	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	c1aef1202f1d99b6
+6295	6371	7600218212968736	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	fc926257774037cc
+6295	6371	7600218212968736	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	fc926257774037cc
+6371	6445	7600218213713769	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	4a94770903f882c6
+6371	6445	7600218213713769	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	4a94770903f882c6
+6445	6521	7600218214508869	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	deadbabf6eef75bb
+6445	6521	7600218214508869	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	deadbabf6eef75bb
+6522	6604	7600218215293447	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	a5b4c06bae8a531a
+6605	6714	7600218216403685	CMakeFiles/curl-populate-complete	f158431bb57a0586
+6605	6714	7600218216403685	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	f158431bb57a0586
+6605	6714	7600218216403685	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	f158431bb57a0586
+6605	6714	7600218216403685	C:/Users/User/Desktop/Module30/Notes/FirstNote/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	f158431bb57a0586

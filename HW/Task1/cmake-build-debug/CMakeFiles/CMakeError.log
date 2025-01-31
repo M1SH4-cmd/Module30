@@ -1,0 +1,176 @@
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-d8xql6
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_8478f && [1/2] Building CXX object CMakeFiles/cmTC_8478f.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_8478f.exe
+FAILED: cmTC_8478f.exe 
+cmd.exe /C "cd . && C:\mingw64\bin\c++.exe -fsanitize=thread  CMakeFiles/cmTC_8478f.dir/src.cxx.obj -o cmTC_8478f.exe -Wl,--out-implib,libcmTC_8478f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -ltsan: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kda6fr
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_7418c && [1/2] Building CXX object CMakeFiles/cmTC_7418c.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_7418c.exe
+FAILED: cmTC_7418c.exe 
+cmd.exe /C "cd . && C:\mingw64\bin\c++.exe -fsanitize=address  CMakeFiles/cmTC_7418c.dir/src.cxx.obj -o cmTC_7418c.exe -Wl,--out-implib,libcmTC_7418c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lasan: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test ALL_SANITIZERS_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9gi0yb
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_61ff4 && [1/2] Building CXX object CMakeFiles/cmTC_61ff4.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_61ff4.exe
+FAILED: cmTC_61ff4.exe 
+cmd.exe /C "cd . && C:\mingw64\bin\c++.exe -fsanitize=leak -fsanitize=undefined  CMakeFiles/cmTC_61ff4.dir/src.cxx.obj -o cmTC_61ff4.exe -Wl,--out-implib,libcmTC_61ff4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lubsan: No such file or directory
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -llsan: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+
+Determining if the include file sys/auxv.h exists failed with the following output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vu051j
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_82b30 && [1/2] Building C object CMakeFiles/cmTC_82b30.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_82b30.dir/CheckIncludeFile.c.obj 
+C:\mingw64\bin\gcc.exe   -fdiagnostics-color=always -std=c11 -o CMakeFiles/cmTC_82b30.dir/CheckIncludeFile.c.obj -c C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vu051j/CheckIncludeFile.c
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vu051j/CheckIncludeFile.c:1:10: fatal error: sys/auxv.h: No such file or directory
+    1 | #include <sys/auxv.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j1fgti
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_39fd2 && [1/2] Building C object CMakeFiles/cmTC_39fd2.dir/CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_39fd2.dir/CheckIncludeFile.c.obj 
+C:\mingw64\bin\gcc.exe   -fdiagnostics-color=always -std=c11 -o CMakeFiles/cmTC_39fd2.dir/CheckIncludeFile.c.obj -c C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j1fgti/CheckIncludeFile.c
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j1fgti/CheckIncludeFile.c:1:10: fatal error: sys/sdt.h: No such file or directory
+    1 | #include <sys/sdt.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxuvn9
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_ba8c3 && [1/2] Building C object CMakeFiles/cmTC_ba8c3.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_ba8c3.dir/CheckSymbolExists.c.obj 
+C:\mingw64\bin\gcc.exe -D_POSIX_C_SOURCE=200112L  -fdiagnostics-color=always -std=c11 -o CMakeFiles/cmTC_ba8c3.dir/CheckSymbolExists.c.obj -c C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxuvn9/CheckSymbolExists.c
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxuvn9/CheckSymbolExists.c: In function 'main':
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxuvn9/CheckSymbolExists.c:8:19: error: 'posix_memalign' undeclared (first use in this function)
+    8 |   return ((int*)(&posix_memalign))[argc];
+      |                   ^~~~~~~~~~~~~~
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bxuvn9/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the aligned_alloc exist failed with the following output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak0krh
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_e5783 && [1/2] Building C object CMakeFiles/cmTC_e5783.dir/CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_e5783.dir/CheckSymbolExists.c.obj 
+C:\mingw64\bin\gcc.exe -D_ISOC11_SOURCE=1  -fdiagnostics-color=always -std=c11 -o CMakeFiles/cmTC_e5783.dir/CheckSymbolExists.c.obj -c C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak0krh/CheckSymbolExists.c
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak0krh/CheckSymbolExists.c: In function 'main':
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak0krh/CheckSymbolExists.c:8:19: error: 'aligned_alloc' undeclared (first use in this function); did you mean '_aligned_malloc'?
+    8 |   return ((int*)(&aligned_alloc))[argc];
+      |                   ^~~~~~~~~~~~~
+      |                   _aligned_malloc
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak0krh/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef aligned_alloc
+  return ((int*)(&aligned_alloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dot2hu
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_93231 && [1/2] Building C object CMakeFiles/cmTC_93231.dir/src.c.obj
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dot2hu/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_93231.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL failed with the following output:
+Change Dir: C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8f4fda
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_5a72f && [1/2] Building C object CMakeFiles/cmTC_5a72f.dir/src.c.obj
+C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8f4fda/src.c:5:5: warning: visibility attribute not supported in this configuration; ignored [-Wattributes]
+    5 |     }
+      |     ^
+[2/2] Linking C executable cmTC_5a72f.exe
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+

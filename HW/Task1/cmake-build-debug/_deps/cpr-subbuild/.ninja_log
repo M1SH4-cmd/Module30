@@ -1,0 +1,21 @@
+# ninja log v5
+1	92	7600414651381764	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	ed7e23ff085cb786
+1	92	7600414651381764	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	ed7e23ff085cb786
+93	6898	7600414719286375	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	19f3ac1aa06f9511
+93	6898	7600414719286375	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	19f3ac1aa06f9511
+6899	8484	0	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	fcdba9d47b86234c
+6899	8484	0	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	fcdba9d47b86234c
+8485	8593	7600414736391369	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	de36f04a5c93339c
+8485	8593	7600414736391369	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	de36f04a5c93339c
+8594	8700	7600414737441360	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	49541f38acb0404
+8594	8700	7600414737441360	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	49541f38acb0404
+8701	8803	7600414738476387	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	963736664c9cb45d
+8701	8803	7600414738476387	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	963736664c9cb45d
+8803	8900	7600414739481350	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	bf5c3cfa3fceebc0
+8803	8900	7600414739481350	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	bf5c3cfa3fceebc0
+8901	9007	7600414740526370	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	c9620592bd6c3a41
+8901	9007	7600414740526370	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	c9620592bd6c3a41
+9008	9147	7600414741906365	CMakeFiles/cpr-populate-complete	4b6c1b62b5c8de51
+9008	9147	7600414741906365	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	4b6c1b62b5c8de51
+9008	9147	7600414741906365	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete	4b6c1b62b5c8de51
+9008	9147	7600414741906365	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	4b6c1b62b5c8de51

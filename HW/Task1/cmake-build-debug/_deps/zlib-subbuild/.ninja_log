@@ -1,0 +1,21 @@
+# ninja log v5
+1	86	7600414817990820	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	4101de7a398d0ce1
+1	86	7600414817990820	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	4101de7a398d0ce1
+87	5641	7600414873585664	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	cfc1e9351fa37034
+87	5641	7600414873585664	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	cfc1e9351fa37034
+5641	5868	0	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	76d2c6f2d97c4856
+5641	5868	0	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	76d2c6f2d97c4856
+5869	5951	7600414876680961	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	f42e554338b8634a
+5869	5951	7600414876680961	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	f42e554338b8634a
+5951	6027	7600414877445825	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	900392afba954cd3
+5951	6027	7600414877445825	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	900392afba954cd3
+6028	6615	7600414883272203	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	fa2bdc90e51cb7e9
+6028	6615	7600414883272203	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	fa2bdc90e51cb7e9
+6615	6698	7600414884117204	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	4ffdc551d75edb08
+6615	6698	7600414884117204	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	4ffdc551d75edb08
+6698	6778	7600414884917187	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	87ea05dc54fb4505
+6698	6778	7600414884917187	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	87ea05dc54fb4505
+6779	6885	7600414886007208	CMakeFiles/zlib-populate-complete	d2889de816c4b986
+6779	6885	7600414886007208	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	d2889de816c4b986
+6779	6885	7600414886007208	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete	d2889de816c4b986
+6779	6885	7600414886007208	C:/Users/User/Desktop/Module30/HW/Task1/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	d2889de816c4b986
